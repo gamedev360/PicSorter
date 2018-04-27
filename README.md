@@ -1,5 +1,4 @@
-**Word Count**<br/><br/>
-
+**Word Count**<br/>
 https://github.com/LuminosoInsight/code-sample-term-counting<br/><br/>
 
 **Description**<br/>
