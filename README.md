@@ -1,18 +1,18 @@
-**Word Count**
-https://github.com/LuminosoInsight/code-sample-term-counting
+**Word Count**<br/><br/>
 
-** Description **
-A word counting application for a Luminoso job application test.
+https://github.com/LuminosoInsight/code-sample-term-counting<br/><br/>
 
-This application requires a text file as input and will produce
-the complete count of words used in the text file.
+** Description **<br/>
+A word counting application for a Luminoso job application test.<br/><br/>
 
-**Version of Python Used**
-Python 3.6.3 :: Anaconda, Inc.
+This application requires a text file as input and will produce the complete count of words used in the text file.<br/><br/>
 
-**Running**
-python word_count [-hj] <inputfile>
-- -h help
-- -j output in JSON
+**Version of Python Used**<br/>
+Python 3.6.3 :: Anaconda, Inc.<br/><br/>
+
+**Running**<br/>
+python word_count [-hj] <inputfile><br/>
+- -h help<br/>
+- -j output in JSON<br/>
 
 
