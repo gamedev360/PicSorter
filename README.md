@@ -2,7 +2,7 @@
 
 https://github.com/LuminosoInsight/code-sample-term-counting<br/><br/>
 
-** Description **<br/>
+**Description**<br/>
 A word counting application for a Luminoso job application test.<br/><br/>
 
 This application requires a text file as input and will produce the complete count of words used in the text file.<br/><br/>
