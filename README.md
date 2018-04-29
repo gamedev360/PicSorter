@@ -10,8 +10,10 @@ This application requires a text file as input and will produce the complete cou
 Python 3.6.3 :: Anaconda, Inc.<br/><br/>
 
 **Running**<br/>
-python word_count [-hj] <inputfile><br/>
+python word_count [-hj] [\<inputfile><br/\>]
 - -h help<br/>
 - -j output in JSON<br/>
+
+if the optional \<inputfile\> is not specified, then stdin will be read
 
 
