@@ -16,6 +16,10 @@ python word_count [-hj] [\<inputfile><br/\>]
 
 if the optional \<inputfile\> is not specified, then stdin will be read<br/><br/>
 
+There are a few sample/test files included. The main one used for testing was the Gettysburg address in the file gb.txt. Other longer samples are _The Federalist Papers fp.txt_ and _Don Quioxte dq.txt_ A sample command line to run this application is:<br/>
+
+> python wordcount.py -j gb.txt<br/><br/>
+
 **GIT**<br/>
 The application build includes a git repository of checkins as the application was being built. Use 'git log' to see the history.<br/><br/>
 
