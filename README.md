@@ -23,7 +23,7 @@ There are a few sample/test files included. The main one used for testing was th
 **GIT**<br/>
 The application build includes a git repository of checkins as the application was being built. Use 'git log' to see the history.<br/><br/>
 
-**Unit Testing**
+**Unit Testing**<br/>
 The application includes the class TestWordCount.py which is a PyUnit class to test the application. To test on the command line use:<br/>
 > python TestWordCount.py<br/><br/>
 
@@ -31,7 +31,7 @@ I've never used PyUnit before. I've written a lot of JUnit tests in the past and
 
 **Design Considerations**<br/>
 I considered making the application object oriented, but the app being more of a one off bash style script (in python), the object oriented vs. simple functions seemed over kill. It could have gone either way. I chose simple functions. Consider it an early design choice.<br/><br/>
-Removal of punctuation is a tricky topic and I went back and forther on removing hyphens. I chose to not remove hyphens because the text files from Project Gutenberg seemed to not hyphenate words acroos lines, but there are some properly hyphenated words like Guteberg-tm isn't a proper word it seems clear tha the project would want the -tm included, although this brings up another case where the word should probably be "Project Gutenberg-tm" which could be a further enhancement to have some full names as singluar items instead of splitting them. In the Gettysburg address -- is used to denote a pause in the speach. This is one of the more common "words" and interesting in itself as a part of the speach. Another reason to ignore hyphens.<br/><br/>
+Removal of punctuation is a tricky topic and I went back and forth on removing hyphens. I chose to not remove hyphens because the text files from Project Gutenberg seemed to not hyphenate words acroos lines, but there are some properly hyphenated words like Guteberg-tm. It sn't a proper word, but seems clear tha the project would want the -tm included. This brings up another case where the word should probably be "Project Gutenberg-tm" which could be a further enhancement to have some full names as singluar items instead of splitting them. In the Gettysburg address -- is used to denote a pause in the speach. This is one of the more common "words" and interesting in itself as a part of the speach. Another reason to ignore hyphens.<br/><br/>
 
 
 **Enhancements**<br/>
