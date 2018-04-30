@@ -22,6 +22,7 @@ The application build includes a git repository of checkins as the application w
 **Unit Testing**
 The application includes the class TestWordCount.py which is a PyUnit class to test the application. To test on the command line use:<br/>
 > python TestWordCount.py<br/><br/>
+
 I've never used PyUnit before. I've written a lot of JUnit tests in the past and PyUnit seemed very similar. This is not uncommon for me to learn as I go and this is a perfect example that I thought I should point out.<br/><br/>
 
 **Design Considerations**<br/>
