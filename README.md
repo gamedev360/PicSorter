@@ -21,7 +21,7 @@ There are a few sample/test files included. The main one used for testing was th
 > python wordcount.py -j gb.txt<br/><br/>
 
 **GIT**<br/>
-The application build includes a git repository of checkins as the application was being built. Use 'git log' to see the history.<br/><br/>
+The application build includes a git repository of checkins as the application was being built. Use 'git log' to see the history. **WARNING**: Just realized my name is in the GIT checkins. Don't use git log if you are trying to keep this anonymous.<br/><br/>
 
 **Unit Testing**<br/>
 The application includes the class TestWordCount.py which is a PyUnit class to test the application. To test on the command line use:<br/>
